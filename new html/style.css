@@ -1,0 +1,66 @@
+head 
+{ /**/
+}
+
+body {
+  
+  font-family: 'Play', sans-serif; /** FUENTE PLAY DE GOOGLE FONT **/
+
+  /**EFECTO GRADIENTE**/
+  
+  background: linear-gradient(-45deg, #be5712, #8a0996, #006cfa, #ad508ead);
+  background-size: 400% 400%;
+  animation: gradient 18s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient { 
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/**BARRA NAVEGACION**/
+.navbar{
+opacity: 60%;
+}
+.QR{ /**IMAGEN QR DE WHATSAPP**/
+  opacity: 60%;
+  size-adjust: 160px
+  ;
+}
+/** ALINEACION DE TODO TEXTO**/
+*{  text-align: center;
+}
+
+
+h2{
+ margin: 1%;
+ color: #d4daa2;
+}
+h3{
+  margin: 1%;
+}
+.col{
+margin: auto;
+  text-align: center;
+font-size: large;
+
+}
+.barista{
+  font-size: xx-large;
+  color: rgb(184, 111, 184);
+}
+.card_card-body{
+  padding-left: 201;
+padding-right: 201;
+  text-align: start;
+font-size: x-large;
+}
+.navbar-brand{
+  text-align: center;
+}
